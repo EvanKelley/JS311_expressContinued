@@ -14,16 +14,10 @@ let counter = 1;
 app.use(express.static("public"));
 app.use(bodyParser.json());
 
-app.get()
-app.get("/vehicles", function (req, res){
-  res.json(vehicles)
-})
-app.get("/comments", function (req, res){
-  res.json(comments)
-})
-app.get("/products", function (req, res){
-  res.json(products)
-})
+// app.get()
+// app.get()
+// app.get()
+// app.get()
 
 
 app.get("/contacts/:id", function (req, res) {
